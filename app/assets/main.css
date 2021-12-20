@@ -1,0 +1,153 @@
+/* custom dropdown */
+.Select-control {
+        background-color: #444 !important;
+        border: 1px solid #375a7f !important;
+        color: #a9a9a9 !important;
+}
+.Select-menu-outer {
+        background-color: #222 !important;
+        border: 1px solid #375a7f !important;
+        border-color: #375a7f !important;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+        color: #a9a9a9 !important;
+}
+.Select.has-value.Select--single > .Select-control .Select-value .Select-value-label, .Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+        color: #a9a9a9 !important;
+    }
+
+.Select--single>.Select-control .Select-value, .Select-placeholder {
+        color: #a9a9a9 !important;
+        background: #222 !important;
+}
+.is-open>.Select-control {
+        background: #222 !important;
+        border-color: #375a7f !important;
+        color: #a9a9a9 !important;
+}
+
+.VirtualizedSelectOption {
+        color:  #a9a9a9 !important;
+ }
+
+ /* set button color */
+.btn {
+        color: #375a7f;     
+}
+
+
+/* custom scroll bar */
+/* https://css-tricks.com/the-current-state-of-styling-scrollbars/ */
+#dropdown_pattern ::-webkit-scrollbar-track
+{
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #444;
+}
+
+#dropdown_pattern ::-webkit-scrollbar
+{
+        width: 12px;
+        background-color: #444;
+}
+
+#dropdown_pattern ::-webkit-scrollbar-thumb
+{
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #666
+}
+
+/* custom textarea */
+textarea::-webkit-scrollbar-track
+{
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: transparent;
+}
+
+textarea::-webkit-scrollbar
+{
+        width: 12px;
+        background-color: transparent;
+}
+
+textarea::-webkit-scrollbar-thumb
+{
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #444 
+}
+textarea::-webkit-scrollbar-corner {
+        background: transparent;
+}
+textarea::-webkit-resizer {
+        background: transparent;
+}
+
+/* custom datatable */
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner input:not([type=radio]):not([type=checkbox]) {
+        color: #a9a9a9 !important;
+}
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner th.dash-filter input.dash-filter--case--sensitive {
+        border-color: #375a7f !important;
+        color: #375a7f !important;
+}
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner th:hover [class^='column-header--']:not(.disabled), .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner th:hover [class^='dash-filter--']:not(.disabled) {
+        color: #375a7f !important;
+        border-color: #375a7f !important;
+    }
+#output_table ::-webkit-scrollbar-thumb
+{
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #444 
+}
+
+#output_table ::-webkit-scrollbar-track
+{
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: transparent;
+}
+
+#output_table ::-webkit-scrollbar
+{
+        width: 12px;
+        background-color: transparent;
+}
+
+#output_table ::-webkit-scrollbar-thumb
+{
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #444 
+}
+#output_table ::-webkit-scrollbar-corner {
+        background: transparent;
+}
+#output_table ::-webkit-resizer {
+        background: transparent;
+}
+.dash-table-container .previous-next-container button.previous-page:hover, .dash-table-container .previous-next-container button.next-page:hover, .dash-table-container .previous-next-container button.first-page:hover, .dash-table-container .previous-next-container button.last-page:hover {
+        color: #375a7f !important;
+}
+
+.dash-table-container .previous-next-container .page-number .current-page-container input.current-page {
+        background-color: #a9a9a9 !important;
+    }
+.dash-table-container .previous-next-container .page-number {
+        color: #a9a9a9 !important;
+    }
+
+.form-control {
+        background-color: #222 !important;
+}
