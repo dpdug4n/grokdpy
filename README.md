@@ -1,4 +1,6 @@
 # PyGrok Debugger
+Grok Debugger via Pygrok and Plotly Dash.
+
 ## How To
 Note: You will need to install [Docker](https://docs.docker.com/get-docker/) and have it running.  
 
